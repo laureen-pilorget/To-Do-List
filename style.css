@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Raleway:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    outline: 0;
+}
+
+body {
+    background: rgb(201,60,221);
+    background: 
+        linear-gradient(90deg, rgba(201,60,221,1) 0%,
+        rgba(194,116,181,1) 35%,
+        rgba(0,196,255,0.7301514355742297) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    }
+
+section {
+    background-color: rgba(232, 8, 101, 0.306);
+    padding: 20px;
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px ;
+    overflow: hidden;
+}
+
+h1 {
+    color: rgba(181, 244, 255, 0.634);
+}
+
+
+.full_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 90%;
+    padding: 10px 5px;
+    height: 39px;
+    border: 1px solid rgba(181, 244, 255, 0.441);
+    border-radius: 6px 0 0 6px;
+    background-color: rgba(236, 189, 216, 0.463);
+}
+
+button {
+    width: 10%;
+    font-size: 20px;
+    height: 39px;
+    border: 0;
+    background-color: rgba(232, 8, 101, 0.306);
+    color: rgba(181, 244, 255, 0.849);
+    border-radius: 0 6px 6px 0;
+}
+
+.paragraphe_style {
+    margin: 10px 0;
+    padding: 10px 0;
+    padding-left: 5px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(0,196,255,0.7301514355742297);
+    word-break: break-all;
+    cursor: pointer;
+    animation: anime 0.5s linear;
+}
+
+.paragraphe_style:last-child {
+    margin-bottom: 0;
+}
+
+@keyframes anime {
+    from {
+        transform: translateY(50px);
+    }
+}
+
+.paragraph_click {
+    background-color: black;
+    text-decoration: line-through;
+}
